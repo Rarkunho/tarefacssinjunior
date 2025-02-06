@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Alata';
+    src: url('Alata-Regular.ttf') format('truetype');
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -71,7 +76,9 @@ li {
 
 }
 
-
+* {
+    font-family: 'Alata';
+}
 
 ul {
     display: flex;
