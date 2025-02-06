@@ -268,6 +268,12 @@ footer nav button:active{
         box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
     }
 
+    #about img:hover{
+    scale: 1.1;
+    box-shadow: 0px 0px 25px skyblue;
+    transition: 0.5s;
+}
+
     #about{
         display: flex;
         flex-direction: column;
@@ -295,6 +301,7 @@ footer nav button:active{
         box-shadow: 2px 2px 4px black;
         margin: 20px;
     }
+
 
     #lists {
         display: flex;
@@ -327,16 +334,17 @@ footer nav button:active{
         box-shadow: 6px 6px 6px 0px #00000040;
         margin: 5px;
     }
-    
-    #lists div li ul:hover{
-        scale: 1.5;
-        border: solid 2px #F3F3F3;
-        transition: 0.5s;
+
+    #lists div li ul .ranking{
+        position: absolute;
+        transform: translateX(-30px) translateY(5px);
+        text-align: start;
+        color: black;
+        background-color: #a1a1a1d5;
+        border-radius: 0px 0px 4px 4px;
+        padding: 6px 5px;
     }
-    #lists div li ul:hover .ranking{
-        background-color: gold;
-    }
-    
+
     #lists div li ul .imgLegenda {
         display: flex;
         position: absolute;
@@ -382,17 +390,56 @@ footer nav button:active{
     }
     
     #feedback button{
-        display: flex;
-        position: static;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
+        
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 100px;
+        margin-right: 100px;
         border: none;
-        padding: 5px 20px;
+        padding: 5px 50px;
         border-radius: 4px;
         background: #D9D9D9;
         color: black;
     }
+
+    footer {
+        display: flex;
+        position:static;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding: 1.5% 12%;
+        background-color: slategrey;
+        justify-content: center;
+    }
+    footer div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20%;
+    }
+    
+    footer div img{
+        width: 25px;
+        height: auto;
+    }
+
+    footer nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    footer nav button{
+        width: 40%;
+        padding: 2px 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border: none;
+        background: #ECECEC;
+    }
+    
+    
 }
 
 
