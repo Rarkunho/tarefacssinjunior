@@ -113,7 +113,7 @@ header {
 
 #lists div li ul .ranking{
     position: absolute;
-    transform: translateX(-35px);
+    transform: translateX(-40px);
     text-align: start;
     color: black;
     background-color: #a1a1a1d5;
@@ -122,11 +122,10 @@ header {
 }
 
 #lists div li img {
-    width: 100px;
+    width: 120px;
     height: auto;
     border-radius: 5px;
     box-shadow: 6px 6px 6px 0px #00000040;
-    
 }
 
 #lists div li ul:hover{
@@ -145,7 +144,7 @@ header {
     padding-right: 5px;
     padding-left: 5px;
     color: black;
-    transform: translateY(90px);
+    transform: translateY(120px);
     font-size: 10px;
     text-shadow: 2px 2px 5px white;
     background-color: #ffffff8a;
