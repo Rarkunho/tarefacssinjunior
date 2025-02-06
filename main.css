@@ -207,19 +207,38 @@ footer {
     position:static;
     flex-direction: row;
     justify-content: space-between;
-    
-    padding: 1.5% 8%;
+    padding: 1.5% 12%;
     background-color: slategrey;
 }
 
-footer nav input{
-    padding: 8px 16px 8px 16px;
-    border-radius: 5px;
-    opacity: 0px;
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 20%;
+}
 
+footer div img{
+    width: 50px;
+    height: auto;
+}
+
+footer nav button{
+    width: 150%;
+    padding: 4% 8%;
+    border-radius: 5px;
     border: none;
     background: #ECECEC;
 }
+
+footer nav button:hover{
+    background: #C4C4C4;
+}
+footer nav button:active{
+    color: white;
+    background: #B0B0B0;
+}
+
 
 
 
